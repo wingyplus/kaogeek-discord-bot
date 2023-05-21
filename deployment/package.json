@@ -1,0 +1,17 @@
+{
+  "name": "deployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node --loader ts-node/esm deployment.mts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dagger.io/dagger": "^0.5.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
